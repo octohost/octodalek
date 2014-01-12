@@ -1,0 +1,10 @@
+{
+  "name": "octodalek",
+  "description": "Tests the octohost server sites to make sure they work.",
+  "version": "0.0.1",
+  "devDependencies": {
+    "dalekjs": "0.0.8",
+    "dalek-browser-chrome": "0.0.8",
+    "dalek-reporter-html": "0.0.3"
+  }
+}
