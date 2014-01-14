@@ -2,8 +2,8 @@ module.exports = {
 'Martini tests': function (test) {
   test
     .open('http://martini.octohost.io/')
-    .assert.title().is('martini', 'It has title')
-    .assert.text('#title').is('Hello world!', 'It has an H1')
+    .assert.title().is('Martini on octohost', 'It has title')
+    .assert.text('.jumbotron h1').is('Martini', 'It has an H1')
     .done();
 }
 };
